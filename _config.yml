@@ -44,7 +44,13 @@ excerpt_all: false
 # 是否开启文章分享按钮
 share_enable: true
 # 国内的社交平台(If you are not in China, maybe you prefer to set:false)
-share_china: true
+share_china_enable: true
+share_china: 
+  weibo: true
+  weixin: true
+  qq: false
+  douban: false
+  qzone: false
 # 文章分享文字
 share_text: 分享
 
